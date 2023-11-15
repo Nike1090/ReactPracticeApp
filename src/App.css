@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+nav {
+
+  padding: 25px;
+  background-color: rgb(10, 6, 140);
+  color: royalblue;
+  text-decoration: darkslateblue;
+
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -21,18 +31,58 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
   color: #61dafb;
 }
 
+.x1 {
+  color: whitesmoke;
+  size: 50px;
+}
+
+.navvy {
+
+  padding: 0px;
+  max-width: 100%;
+  display: inline;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.navvy {
+
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+
+.navvy a {
+  text-decoration: none;
+  color: royalblue;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.navvy a:hover {
+  color: darkslateblue;
 }
